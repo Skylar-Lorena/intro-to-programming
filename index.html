@@ -8,62 +8,67 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header section with navigation bar -->
-    <nav>
-        <ul>
+      <!-- Header section with navigation bar -->
+      <header>
+        <nav>
+          <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
             <li><a href="#">Menu</a></li>
+            <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Main section with hero, about, menu, and contact sections -->
-    <main>
-                
-       <!-- Hero section with welcome message, description, and button -->
-        <section>
-            <h1>Welcome to Moringa Cafetaria</h1>
-            <button>View  Menu</button>
-
+          </ul>
+        </nav>
+      </header>
+      
+      <!-- Main section with hero, about, menu, and contact sections -->
+      <main>
+        <!-- Hero section with welcome message, description, and button -->
+        <section id="hero">
+          <h1>Welcome to Restaurant Name</h1>
+          <p>Discover our delicious menu and experience our warm hospitality.</p>
+          <button>View Menu</button>
         </section>
-      <!-- About section with information about the restaurant -->
-        <section>
-            <h1>About</h1>
-        <p>We are a Moringa owned cafeteria that serves delicious meals to Moringa students</p>
+        
+        <!-- About section with information about the restaurant -->
+        <section id="about">
+          <h2>About Us</h2>
+          <p>We are a family-owned restaurant dedicated to serving delicious food using only the freshest ingredients.</p>
         </section>
-   <!-- Menu section with a list of menu items -->
-        <section>
-            <h1>Menu</h1>
-            <ul>
-                <li>Appetizers</li>
-                <li>Desserts</li>
-                <li>Breakfast</li>
-                <li>Lunch</li>
-            </ul>
+        
+        <!-- Menu section with a list of menu items -->
+        <section id="menu">
+          <h2>Our Menu</h2>
+          <p>Explore our wide range of dishes, from appetizers to entrees to desserts.</p>
+          <ul>
+            <li><h3>Appetizers</h3></li>
+            <li><h3>Entrees</h3></li>
+            <li><h3>Desserts</h3></li>
+          </ul>
         </section>
-<!-- Contact section with a form for customers to contact the restaurant -->
-        <section>
-            <h1>Contact</h1>
-            <form action="#">
-                <label for ="email">E-mail</label>
-                <input type="email" name="email" id="email" placeholder="Enter email">
-                <label for ="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Enter name">
-                <label for ="phone">Phone Number</label>
-                <input type="text" name="phone" id="phone" placeholder="Enter phone">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" placeholder="Enter message"></textarea>
-                <button type="submit">Submit</button>
-            </form>
+        
+        <!-- Contact section with a form for customers to contact the restaurant -->
+        <section id="contact">
+          <h2>Contact Us</h2>
+          <p>Get in touch with us for reservations or any inquiries.</p>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            
+            <button type="submit">Send Message</button>
+          </form>
         </section>
-    </main>
-
-<!-- Footer section with copyright information -->
-<footer>
-    <p>2023 Copyright Moringa Cafeteria. All rights reserved</p>
-</footer>
-
-
-</body>
-</html>
+      </main>
+      
+      <!-- Footer section with copyright information -->
+      <footer>
+        <p>&copy; 2023 Restaurant Name. All rights reserved.</p>
+      </footer>
+    </body>
+  </html>
+  
