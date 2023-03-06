@@ -1,0 +1,169 @@
+/*Reset styles. Sets basic styles for the entire page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set styles for the header section */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Set styles for the navigation bar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Set styles for the main section */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  /* Set styles for the hero section */
+  #hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #hero button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  #hero button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Set styles for the about section */
+  #about {
+    margin-bottom: 40px;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Set styles for the menu section */
+  #menu {
+    margin-bottom: 40px;
+  }
+  
+  #menu h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #menu p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  #menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  #menu ul li {
+    width: 33%;
+  }
+  
+  #menu ul li h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Set styles for the contact section */
+  #contact {
+    margin-bottom: 40px;
+  }
+  
+  #contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  #contact form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #contact form input,
+  #contact form textarea {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  #contact form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px
+  }
